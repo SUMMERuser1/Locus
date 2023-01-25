@@ -1,189 +1,164 @@
-.symbol-heading{
-  font-family: popins;
+@font-face {
+  font-family: 'poppins';
+  src: url(/Fonts/Poppins/Poppins-ExtraBold.ttf);
   font-weight: 800;
-  color: #58A9A5;
-  line-height: 52.5px;
-  font-size: 35px;
 }
-.main-option{
-  font-family: popins;
+
+@font-face {
+  font-family: 'poppins';
+  src: url(/Fonts/Poppins/Poppins-Bold.ttf);
   font-weight: 700;
-  font-size: 25px;
-  line-height: 35.5px;
-  color: #58A9A5;
-  text-decoration: none;
 }
-.menu-options{
-  font-family: popins;
+
+@font-face {
+  font-family: 'poppins';
+  src: url(/Fonts/Poppins/Poppins-Regular.ttf);
   font-weight: 400;
-  font-size: 25px;
-  line-height: 37.5px;
-  color: #58A9A5;
-  text-decoration: none;
 }
-.heading-button{
-  font-family: popins;
+
+@font-face {
+  font-family: 'poppins';
+  src: url(/Fonts/Poppins/Poppins-Medium.ttf);
   font-weight: 500;
-  font-size: 25px;
-  line-height: 37.5px;
-  color: #FFFFFF;
 }
-.motto{
-  font-family: popins;
-  font-weight: 800;
-  font-size: 70px;
-  line-height: 105px;
-  color: #1C2323;
+@font-face {
+  font-family: 'port lligat sans';
+  src: url(/Fonts/PortLligatSans-Regular.ttf);
 }
-.paragraph-discription{
-  font-family: popins;
+html {
+  width: 1920px;
+  height: 6100px;
+}
+
+body {
+  font-family: 'poppins', serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 45px;
-  color: #404242;
 }
-.entire-product{
-  font-family: popins;
+
+.symbol-heading {
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 52px;
+  color: #58A9A5;
+}
+
+.main-option{
   font-weight: 700;
   font-size: 25px;
-  line-height: 37.5px;
+  line-height: 37px;
+  text-decoration: none;
+  color: #58A9A5;
+}
+
+.menu-options{
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  text-decoration: none;
+  color: #404242;
+}
+
+.heading-button{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  text-decoration: none;
   color: #FFFFFF;
 }
 .h2{
-  font-family: popins;
   font-weight: 800;
   font-size: 70px;
   line-height: 105px;
   color: #1C2323;
 }
-.video-motto{
-  font-family: popins;
+
+.extra-but{
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+
+.body-small{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.text-srcdiscrip{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
+}
+
+.text-src{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
+}
+.motto{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #1C2323;
+}
+.motto-discrip{
+  font-family: 'poppins', serif;
   font-weight: 400;
   font-size: 30px;
   line-height: 45px;
-  color: #404242;
-}
-.video-discrip{
-  font-family: popins;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
   color: #486958;
 }
-.check-video{
-  font-family: popins;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  color: #486958;
-}
-.mission-paragraph{
-  font-family: popins;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
-  color:#1C2323;
-}
-.heading-principles{
-  font-family: popins;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 45px;
-  color:#486958;
-}
-.projects-made{
-  font-family: popins;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 45px;
-  color: #404242;
-}
-.left-example{
-  font-family: popins;
+
+.pic-name{
+  font-family: 'poppins', serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 60px;
   color: #58A9A5;
 }
-.pargraph-exampleleft{
-  font-family: popins;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #486958;
-}
-.center-example{
-  font-family: popins;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
-  color: #58A9A5;
-}
-.pargraph-examplecenter{
-  font-family: popins;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #486958;
-}
-.right-example{
-  font-family: popins;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 60px;
-  color: #58A9A5;
-}
-.pargraph-exampleright{
-  font-family: popins;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #486958;
-}
-.digits-done{
+
+.digits-stat{
+  font-family: 'poppins', serif;
   font-weight: 800;
   font-size: 70px;
   line-height: 105px;
-  color: #58A9A5
+  color: #58A9A5;
+  
 }
-.discription-done{
+
+.digits-discrip{
+  font-family: 'poppins', serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 45px;
   color: #58A9A5;
 }
+
 .quote-sign{
+  font-family: 'Lligat sans',sans-serif;
   font-weight: 400;
   font-size: 300px;
-  line-height: 45px;
+  line-height: 320px;
   color: #FFFFFF;
 }
+
 .quote{
   font-weight: 500;
   font-size: 25px;
-  line-height: 37.5px;
-  line-height: 45px;
+  line-height: 37px;
   color: #486958;
 }
-.author-quote{
+
+.author{
   font-weight: 500;
-  font-size: 25px;
-  line-height: 37.5px;
-  line-height: 45px;
   font-style: italic;
+  font-size: 25px;
+  line-height: 37px;
   color: #58A9A5;
-}
-.appeal{
-  font-family: popins;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 37.5px;
-  color: #486958;
-}
-.form{
-  font-family: popins;
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 37.5px;
-  color: #486958;
 }
