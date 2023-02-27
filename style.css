@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @font-face {
   font-family: 'poppins';
   src: url(/Fonts/Poppins/Poppins-ExtraBold.ttf);
@@ -41,10 +48,19 @@ body {
   line-height: 45px;
 }
 .header-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 80px 0 100px;
 }
 
@@ -111,9 +127,16 @@ body {
   padding: 0;
 }
 .main-section{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row ;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row ;
+          flex-direction: row ;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .main-section-text{
   width: 743px;
@@ -133,8 +156,13 @@ body {
 }
 
 .main-settings{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   width: 507px;
   text-align: center;
 
@@ -144,8 +172,13 @@ body {
   background-color: #CCF0E6;
   height: 350px;
   border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .text-discrip{
@@ -202,6 +235,9 @@ body {
   line-height: 30px;
   color: #FFFFFF;
 }
+.mission-class{
+  display: none;
+}
 
 .text-srcdiscrip{
   font-weight: 500;
@@ -241,9 +277,16 @@ body {
   margin: 196px 399px 54px 1013px
 }
 .second-mainsection{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 1487px;
   height: 644px;
   margin-top: 151px
@@ -328,13 +371,21 @@ body {
 }
 
 .section-proj{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .lines{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .section-content1{
@@ -344,8 +395,12 @@ body {
 }
 
 .brands-block{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   
 }
 
@@ -359,6 +414,8 @@ body {
 }
 
 .exp{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -375,6 +432,8 @@ body {
 }
 
 .digits{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 .digits1{
