@@ -235,6 +235,9 @@ body {
   line-height: 30px;
   color: #FFFFFF;
 }
+.mission-class{
+  display: none;
+}
 
 .text-srcdiscrip{
   font-weight: 500;
